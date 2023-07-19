@@ -1,6 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
 import styles from "./Layout.module.css";
 import Azure from "../../assets/Azure.svg";
+import GOCLogo from "../../assets/sig-blk-en.svg";
 import { CopyRegular, ShareRegular } from "@fluentui/react-icons";
 import { Dialog, Stack, TextField } from "@fluentui/react";
 import { useEffect, useState } from "react";
@@ -37,8 +38,8 @@ const Layout = () => {
                 <div className={styles.headerContainer}>
                     <Stack horizontal verticalAlign="center">
                         <img
-                            src={Azure}
-                            className={styles.headerIcon}
+                            src={GOCLogo}
+                            className={styles.headerIconGOC}
                             aria-hidden="true"
                         />
                         <Link to="/" className={styles.headerTitleContainer}>

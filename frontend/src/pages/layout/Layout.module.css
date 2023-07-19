@@ -38,6 +38,12 @@
     margin-left: 36px;
 }
 
+.headerIconGOC {
+    height: 36px;
+    width: 362px;
+    margin-left: 36px;
+}
+
 .shareButtonContainer {
     display: flex;
     flex-direction: row;
