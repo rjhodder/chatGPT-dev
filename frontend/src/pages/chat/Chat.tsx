@@ -165,6 +165,7 @@ const Chat = () => {
                                 />
                                 <h1 className={styles.chatEmptyStateTitle}>Start chatting</h1>
                                 <h2 className={styles.chatEmptyStateSubtitle}>***Unclassified data only***</h2>
+                                <h2 className={styles.chatEmptyStateSubtitle}>***Unclassified data only***</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}}>
