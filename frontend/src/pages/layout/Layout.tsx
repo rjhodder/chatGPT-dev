@@ -48,10 +48,8 @@ const Layout = () => {
                             <span className={styles.shareButtonText}>Share</span>
                         </div> */}
                     </Stack>
+                    <h3 className={styles.headerTitleVAC}>Azure Open AI</h3>
                 </div>
-                <Link to="/" className={styles.headerTitleContainer}>
-                            <h3 className={styles.headerTitleVAC}>Azure Open AI</h3>
-                </Link>
             </header>
             <Outlet />
             <Dialog 
