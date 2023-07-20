@@ -1,7 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
 import styles from "./Layout.module.css";
 import Azure from "../../assets/Azure.svg";
-import GOCLogo from "../../assets/sig-blk-en.svg";
+import VACLogo from "../../assets/anciens-combattants-canada.svg";
 import { CopyRegular, ShareRegular } from "@fluentui/react-icons";
 import { Dialog, Stack, TextField } from "@fluentui/react";
 import { useEffect, useState } from "react";
@@ -38,12 +38,12 @@ const Layout = () => {
                 <div className={styles.headerContainer}>
                     <Stack horizontal verticalAlign="center">
                         <img
-                            src={GOCLogo}
+                            src={VACLogo}
                             className={styles.headerIconGOC}
                             aria-hidden="true"
                         />
                         <Link to="/" className={styles.headerTitleContainer}>
-                            <h3 className={styles.headerTitle}>VAC/ACC Azure AI</h3>
+                            <h3 className={styles.headerTitle}>Azure Open AI</h3>
                         </Link>
                         <div className={styles.shareButtonContainer} role="button" tabIndex={0} aria-label="Share" onClick={handleShareClick} onKeyDown={e => e.key === "Enter" || e.key === " " ? handleShareClick() : null}>
                             <ShareRegular className={styles.shareButton} />
