@@ -49,6 +49,11 @@ const Layout = () => {
                             <ShareRegular className={styles.shareButton} />
                             <span className={styles.shareButtonText}>Share</span>
                         </div> */}
+                        <div className={styles.HeaderTextContainer}>
+                        <Link to="/" className={styles.headerTitleContainer}>
+                            <h3 className={styles.headerTitleVAC}>Azure Open AI</h3>
+                        </Link>
+                        </div>
                     </Stack>
                 </div>
             </header>
