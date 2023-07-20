@@ -45,9 +45,13 @@ const Layout = () => {
                         <Link to="/" className={styles.headerTitleContainer}>
                             <h3 className={styles.headerTitleVAC}>Azure Open AI</h3>
                         </Link>
-                        <div className={styles.shareButtonContainer} role="button" tabIndex={0} aria-label="Share" onClick={handleShareClick} onKeyDown={e => e.key === "Enter" || e.key === " " ? handleShareClick() : null}>
+                        {/* <div className={styles.shareButtonContainer} role="button" tabIndex={0} aria-label="Share" onClick={handleShareClick} onKeyDown={e => e.key === "Enter" || e.key === " " ? handleShareClick() : null}>
                             <ShareRegular className={styles.shareButton} />
                             <span className={styles.shareButtonText}>Share</span>
+                        </div> */}
+                        <div className={styles.shareButtonContainer} role="button" tabIndex={0} aria-label="Share" onClick={handleShareClick} onKeyDown={e => e.key === "Enter" || e.key === " " ? handleShareClick() : null}>
+                            <ShareRegular className={styles.shareButton} />
+                            {/* <span className={styles.shareButtonText}>Share</span> */}
                             <h3 className={styles.headerTitleVAC}>Azure Open AI</h3>
                         </div>
                     </Stack>
