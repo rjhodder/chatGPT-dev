@@ -158,14 +158,14 @@ const Chat = () => {
                     <div className={styles.chatContainer}>
                         {!lastQuestionRef.current ? (
                             <Stack className={styles.chatEmptyState}>
-                                <img
+                                {/* <img
                                     src={Azure}
                                     className={styles.chatIcon}
                                     aria-hidden="true"
-                                />
+                                /> */}
                                 <h1 className={styles.chatEmptyStateTitle}>Start chatting</h1>
                                 <h2 className={styles.chatEmptyStateSubtitle}>***Unclassified data only***</h2>
-                                <h3 className={styles.chatEmptyStateSubtitle}>The Azure Open AI system processes prompts using ChatGPT. This service is based in the US and as such should be used with unclassified data only.</h3>
+                                <h3 className={styles.chatEmptyStateSubtitle}>The Azure Open AI service processes prompts using ChatGPT. This service is based in the US and as such should be used with unclassified data only.</h3>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}}>
