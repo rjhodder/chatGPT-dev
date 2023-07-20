@@ -32,6 +32,18 @@
     color: #242424;
 }
 
+.headerTitleVAC {
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: Right;
+    color: #242424;
+}
+
+
 .headerIcon {
     height: 32px;
     width: 32px;
