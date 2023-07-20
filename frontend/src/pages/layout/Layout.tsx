@@ -51,7 +51,7 @@ const Layout = () => {
                         </div> */}
                         <div className={styles.HeaderTextContainer}>
                         <Link to="/" className={styles.headerTitleContainer}>
-                            <h3 className={styles.headerTitleVAC}>Azure Open AI</h3>
+                            <h3 className={styles.headerTitleVAC}>VAC Azure Open AI</h3>
                         </Link>
                         </div>
                     </Stack>
