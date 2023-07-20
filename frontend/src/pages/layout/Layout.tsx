@@ -51,9 +51,6 @@ const Layout = () => {
                         </div> */}
                     </Stack>
                 </div>
-                <div background-color="red">
-                    <h3>Azure Open AI</h3>
-                </div>
             </header>
             <Outlet />
             <Dialog 
