@@ -164,7 +164,7 @@ const Chat = () => {
                                     aria-hidden="true"
                                 /> */}
                                 <h1 className={styles.chatEmptyStateTitle}>Start chatting</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>***Unclassified data only***</h2>
+                                <h2 className={styles.chatEmptyStateSubtitleRed}>***Unclassified data only***</h2>
                                 <h3 className={styles.chatEmptyStateSubtitleRed}>Data may flow outside of Canada. Please take care to use unclassified data only.</h3>
                             </Stack>
                         ) : (
