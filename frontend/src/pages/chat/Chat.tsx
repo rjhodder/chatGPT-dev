@@ -165,7 +165,7 @@ const Chat = () => {
                                 /> */}
                                 <h1 className={styles.chatEmptyStateTitle}>Start chatting</h1>
                                 <h2 className={styles.chatEmptyStateSubtitle}>***Unclassified data only***</h2>
-                                <h3 className={styles.chatEmptyStateSubtitle}>Azure Open AI may use a USA based service. Please take care to use unclassified data only.</h3>
+                                <h3 className={styles.chatEmptyStateSubtitleRed}>Data may flow outside of Canada. Please take care to use unclassified data only.</h3>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}}>
